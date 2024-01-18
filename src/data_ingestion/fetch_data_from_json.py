@@ -3,13 +3,11 @@ sys.path.append( os.path.abspath('./') )
 import json
 from datetime import datetime
 
-from configs.config import DATA_PATH
-
-KEEP_UPTO = 5
+from configs.config import DATA_PATH, READ_NO_OF_FILES
 
 json_files = [file for file in os.listdir(DATA_PATH) if file.endswith('.json')]
 
-json_files = json_files[ : KEEP_UPTO]
+json_files = json_files[ : READ_NO_OF_FILES]
 
 def get_titles_data():
     titles_list = []
