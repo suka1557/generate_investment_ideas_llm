@@ -2,3 +2,6 @@
 models
 gpt_env
 __pycache__
+
+#Files
+.DS_Store
