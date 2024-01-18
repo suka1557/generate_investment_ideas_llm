@@ -1,0 +1,6 @@
+langchain
+ctransformers
+fastapi
+uvicorn
+transformers
+sentence-transformers
